@@ -18,7 +18,6 @@ export default class ProductItem extends Component {
                 data-target="#myModal"
                 onClick={() => {
                   this.props.setStateModal(productItem);
-                  console.log(12);
                 }}
               >
                 Detail
