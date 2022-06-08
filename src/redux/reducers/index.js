@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
-import oanTuXiReducer from "./oanTuXi/oanTuXiReducer";
+// import oanTuXiReducer from "./oanTuXi/oanTuXiReducer";
+import xucXacReducer from "./xucXac/xucXacReducer";
 
 const rootReducer = combineReducers({
-  oanTuXiReducer,
+  // oanTuXiReducer,
+  xucXacReducer,
 });
 
 export default rootReducer;

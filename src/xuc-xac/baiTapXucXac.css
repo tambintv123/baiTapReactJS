@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "fontGame";
+  src: url("./font/Pony.ttf");
+}
+
+.gameXucXac {
+  background-image: url("./assets/bgGame.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  font-family: "fontGame";
+  position: fixed;
+}
+
+.btnItem {
+  padding: 3.5rem;
+  font-size: 2.5rem;
+  color: white;
+  background-color: rgb(43, 121, 239);
+  border: none;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.content {
+  padding-top: 6rem;
+}
+
+.btnPlay {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: auto;
+}
